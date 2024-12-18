@@ -1,0 +1,9 @@
+Relatório de Obra: Paaaaaa
+Data do Relatório: 14-07-2025
+Orçamento Total: R$ 3500000,00
+Gasto Atual: R$ 46400,00
+Orçamento Restante: R$ 3453600,00
+Porcentagem do Orçamento Gasta: 1,33%
+Porcentagem do Orçamento Gasta com Funcionários: 0,29%
+Dias Passados: 214
+Dias Restantes: 410

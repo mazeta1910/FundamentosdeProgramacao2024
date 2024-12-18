@@ -1,0 +1,9 @@
+Relatório de Obra: Porra
+Data do Relatório: 23-12-1999
+Orçamento Total: R$ 850000,00
+Gasto Atual: R$ 22300,00
+Orçamento Restante: R$ 827700,00
+Porcentagem do Orçamento Gasta: 2,62%
+Porcentagem do Orçamento Gasta com Funcionários: 1,47%
+Dias Passados: 1472
+Dias Restantes: -376

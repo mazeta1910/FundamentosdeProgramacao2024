@@ -1,0 +1,43 @@
+Fase 1: Preparação e planejamento
+
+Criar os arquivos: Crie quatro arquivos: produtor.c, produtor.h, consumidor.c e consumidor.h.
+Definir a QUANTIA_INICIAL: No arquivo produtor.h, defina a constante QUANTIA_INICIAL usando #define. Escolha um valor inicial para a quantidade do produto (ex: #define QUANTIA_INICIAL 100).
+Definir a diretiva de consumo: Escolha um valor constante para a quantidade de produto consumida por rodada e defina-o como uma constante em consumidor.h (ex: #define CONSUMO_POR_RODADA 10).
+Planejar a função produz:
+Em produtor.h, declare a função float produz(float probabilidade, float quantiaProduto);
+Pense em como gerar um número aleatório de produtos, considerando a probabilidade e a quantidade atual. Você pode usar a função rand() da biblioteca stdlib.h para gerar números aleatórios e a função srand(time(NULL)) no início do seu main.c para garantir que os números aleatórios sejam diferentes a cada execução.
+Exemplo de lógica para produz:
+Gerar um número aleatório entre 0 e 1.
+Se o número for menor que a probabilidade, calcular a quantidade a ser produzida (ex: um percentual da quantiaProduto).
+Senão, retornar 0 (não produzir nada nesta rodada).
+Planejar a função consome:
+Em consumidor.h, declare a função float consome(float quantiaProduto);.
+A função deve subtrair a quantidade consumida (CONSUMO_POR_RODADA) da quantiaProduto.
+Importante: Verificar se a quantiaProduto resultante é negativa. Se for, terminar o programa usando exit(1).
+Fase 2: Implementação
+
+Implementar a função produz em produtor.c:
+Escreva o código da função produz seguindo a lógica planejada na fase anterior.
+Implementar a função consome em consumidor.c:
+Escreva o código da função consome, lembrando de verificar se a quantidade resultante é negativa e usar exit(1) caso seja.
+Implementar a função main em main.c:
+Incluir os headers produtor.h e consumidor.h.
+Iniciar a semente para geração de números aleatórios: srand(time(NULL));
+Declarar uma variável para armazenar a quantidade atual do produto e inicializá-la com QUANTIA_INICIAL.
+Criar um loop infinito (while(1)) que:
+Chama a função produz para gerar novos produtos e atualiza a quantidade atual.
+Chama a função consome para consumir produtos e atualiza a quantidade atual.
+Imprime na tela a quantidade atual do produto a cada rodada (opcional, para acompanhar a simulação).
+Fase 3: Compilação e teste
+
+Compilar o código: Utilize um compilador C (como GCC) para compilar os arquivos .c e gerar o executável.
+Testar o programa: Execute o programa e observe o resultado. Verifique se a produção e o consumo estão acontecendo como esperado e se o programa termina quando a quantidade do produto fica negativa.
+Dicas importantes:
+
+Comente seu código: Adicione comentários explicando o que cada parte do código faz. Isso facilita a leitura e a compreensão do código.
+Teste cada função separadamente: Antes de juntar tudo no main.c, teste as funções produz e consome individualmente para garantir que elas estejam funcionando corretamente.
+Use mensagens de erro: Utilize a função printf para exibir mensagens de erro caso ocorra algum problema durante a execução do programa, como a quantidade de produto negativa.
+Depure seu código: Se encontrar erros, utilize um debugger para identificar a causa do problema e corrigi-lo.
+Lembre-se: este roteiro é um guia para te ajudar a realizar o Desafio 4.  Sinta-se à vontade para adaptá-lo à sua maneira de programar e ao seu nível de conhecimento. ??
+
+Com este roteiro detalhado e as dicas, você estará mais preparado para enfrentar o desafio. Boa sorte! ??

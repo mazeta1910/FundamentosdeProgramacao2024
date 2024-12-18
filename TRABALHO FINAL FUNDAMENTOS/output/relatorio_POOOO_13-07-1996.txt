@@ -1,0 +1,9 @@
+Relatório de Obra: POOOO
+Data do Relatório: 13-07-1996
+Orçamento Total: R$ 2500000,00
+Gasto Atual: R$ 104750,00
+Orçamento Restante: R$ 2395250,00
+Porcentagem do Orçamento Gasta: 4,19%
+Porcentagem do Orçamento Gasta com Funcionários: 2,00%
+Dias Passados: 214
+Dias Restantes: 882

@@ -1,0 +1,9 @@
+Relatório de Obra: Planalto
+Data do Relatório: 23-08-1996
+Orçamento Total: R$ 2500000,00
+Gasto Atual: R$ 59050,00
+Orçamento Restante: R$ 2440950,00
+Porcentagem do Orçamento Gasta: 2,36%
+Porcentagem do Orçamento Gasta com Funcionários: 0,70%
+Dias Passados: 255
+Dias Restantes: 487

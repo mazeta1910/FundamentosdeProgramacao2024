@@ -1,0 +1,9 @@
+Relatório de Obra: Mazeta
+Data do Relatório: 12-12-1997
+Orçamento Total: R$ 250000,00
+Gasto Atual: R$ 32200,00
+Orçamento Restante: R$ 217800,00
+Porcentagem do Orçamento Gasta: 12,88%
+Porcentagem do Orçamento Gasta com Funcionários: 4,00%
+Dias Passados: 731
+Dias Restantes: 369

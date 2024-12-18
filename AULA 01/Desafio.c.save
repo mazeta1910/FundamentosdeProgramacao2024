@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+float x1, x2, h1;
+
+    printf("Informe o x1 do triangulo: ");
+    scanf("%f", &x1);
+    printf("Informe o x2 do triangulo: ");
+    scanf("%f", &x2);
+    printf("Informe a altura do triangulo: ");
+    scanf("%f", h1);
+
+    float base=x2-x1, area=(base*h1)/2;
+    
+    printf("A ")
+}
